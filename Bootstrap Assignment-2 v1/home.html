@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META TAGS -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- STYLE SHEETS -->
+        <link rel="stylesheet" href="assets/vendors/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+        
+        <!-- SCRIPTS -->
+        <script src="assets/vendors/js/bootstrap.min.js"></script>
+        <script src="assets/vendors/js/mdb.min.js"></script>
+
+        <title>Bootstrap Assignment 1</title>
+    </head>
+
+    <body>
+        
+        <!-- NAV BAR -->
+        <section class="nav-bar">
+            <div class="b-example-divider">
+                <header>
+                    <div class="container-fluid">
+                        <div class="d-flex flex-wrap align-items-center justify-content-lg-start">
+                            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                                <img src="assets/img/gemini logo.png" class="rounded img-fluid col-1 col-md-1" id="logo" alt="gemini-logo">
+                            </a>
+                            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-lg-start mb-md-0">
+                                <li><a href="#" class="nav-link px-4 col-md-1">Pricing</a></li>
+                                <li><a href="#" class="nav-link px-4 col-md-1">Community</a></li>
+                                <li><a href="#" class="nav-link px-4 col-md-1">Support</a></li>
+                            </ul>
+        
+                            <div class="text-end">
+                                <button type="button" class="btn btn-outline-info me-2 justify-content-lg-end nav-btn">Log in</button>
+                                <button type="button" class="btn btn-info me-5 justify-content-lg-end nav-btn" style="color: white; background-color: var(--blue);">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </section>
+
+        <!-- COVER SECTION -->
+        <section class="cover container-fluid">
+            <div class="row">
+                <video autoplay loop muted class="bg-cover" src="assets/img/bg-video.mp4"></video>
+                <div class="px-3 cover-text col-12 col-md-12">
+                    <h1>The largest community of photo enthusiasts</h1>
+                    <button type="button" class="btn btn-info btn-lg cover-btn">Join Today</button>
+                </div>
+            </div>        
+        </section>
+
+        <!-- INFORMATION SECTION -->
+        <section class="info container-fluid">
+            <div class="row">
+                <h1>Snap photos and share like <br> never before</h1>
+            </div>
+            
+            <br>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 justify-content-lg-start">
+                    <h4>Sed ut perspiciatis</h4>
+                    <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+                    </p>
+                    <button type="button" class="btn btn-outline-info">Learn more</button>
+                </div>
+                <div class="col-lg-4 offset-md-2 col-sm-12">
+                    <h4>Lorem ipsum dolor</h4>
+                    <p>
+                        Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                    </p>
+                    <button type="button" class="btn btn-outline-info">Learn more</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 justify-content-lg-start">
+                    <h4>Sed ut perspiciatis</h4>
+                    <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+                    </p>
+                    <button type="button" class="btn btn-outline-info">Learn more</button>
+                </div>
+                <div class="col-lg-4 offset-md-2 col-sm-12">
+                    <h4>Lorem ipsum dolor</h4>
+                    <p>
+                        Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                    </p>
+                    <button type="button" class="btn btn-outline-info">Learn more</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORM SECTION -->
+        <section class="form-class container-fluid">
+            <div class="row text-center">
+                <h1>Ready to take a free trial?</h1>
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore
+                </h4>
+                <h1 id="subscribe">Subscribe for free</h1>
+            </div>
+            <div class="row">
+                <form class="row g-3 needs-validation border main-form" novalidate>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <label for="validationCustom01" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="..." required>
+                            <div class="valid-feedback">
+                            Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <label for="validationCustom02" class="form-label">Middle Name</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="..." required>
+                            <div class="valid-feedback">
+                            Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <label for="validationCustom03" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="validationCustom03" placeholder="..." required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <label for="validationCustom04" class="form-label">Gender</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Others</option>
+                            </select>
+                            <div class="invalid-feedback">
+                            Please select a valid gender.
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12">
+                            <label for="validationCustom05" class="form-label">Age</label>
+                            <input type="number" class="form-control" id="validationCustom05" placeholder="..." required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12">
+                            <label for="validationCustom06" class="form-label">Contact Number</label>
+                            <input type="tel" class="form-control" id="validationCustom06" pattern="[0-9]{10}" placeholder="..." required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="add" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="add" placeholder="Write your address here..." required>
+                            <div class="valid-feedback">
+                            Looks good!
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 text-center">
+                            <button type="submit" class="btn btn-outline-info text-center" style="margin-top: 2%; margin-bottom: 2%;">Submit</button>
+                        </div>
+                    </div>            
+                </form>
+            </div>
+        </section>
+
+        <!-- DESCRIPTION PHOTO#1 -->
+        <section class="photo1 container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="assets/img/tree_purple.png" alt="Tree Background">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <!-- Tabs navs -->
+                    <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="ex2-tab-1" data-mdb-toggle="tab" href="#ex2-tabs-1" role="tab" aria-controls="ex2-tabs-1" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="ex2-tab-2" data-mdb-toggle="tab" href="#ex2-tabs-2" role="tab" aria-controls="ex2-tabs-2" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="ex2-tab-3" data-mdb-toggle="tab" href="#ex2-tabs-3" role="tab" aria-controls="ex2-tabs-3" aria-selected="false">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="ex2-content">
+                        <div class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel" aria-labelledby="ex2-tab-1">
+                            <p class="w-75">
+                                Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williams burg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamc atcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2">
+                            <p class="w-75">
+                                Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williams burg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamc atcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="ex2-tabs-3" role="tabpanel" aria-labelledby="ex2-tab-3">
+                            <p class="w-75">
+                                Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williams burg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamc atcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- DESCRIPTION PHOTO#2 -->
+        <section class="photo2 container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-6 col-sm-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-sm-6">
+                    <img src="assets/img/tree2.png" alt="tree lake">
+                </div>
+            </div>
+        </section>
+
+        <!-- CROSS SECTION -->
+        <section class="cross container-fluid">
+            <div class="row">
+                <h4 class="col-12 col-md-12 col-sm-12 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore
+                </h4>
+            </div>
+
+            <br>
+
+            <button type="button" class="btn-close btn-lg" aria-label="Close"></button>
+
+            <h5 class="text-center">
+                Nemo enim ipsam
+            </h5>
+        </section>
+
+        <!-- FOOTER SECTION -->
+        <footer class="footer text-center container-fluid">
+            <div class="row ">
+                <h1>You're in good company</h1>
+            </div>
+
+            <div class="row">
+                <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore
+                </h4>  
+            </div>
+
+            <div class="row badges">
+                <div class="col-3 col-md-3 col-sm-2 mb-3 ">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Cras justo odio</a>
+                            <span class="badge rounded-pill purple-bg">12</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Dapibus ac facilisis in</a>
+                            <span class="badge rounded-pill purple-bg">54</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Morbi leo risus</a>
+                            <span class="badge rounded-pill purple-bg">5</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Porta ac consectetur ac</a>
+                            <span class="badge rounded-pill purple-bg">123</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Vestibulum at eros</a>
+                            <span class="badge rounded-pill purple-bg">65</span>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="col-3 col-md-3 col-sm-2 mb-3 ">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Cras justo odio</a>
+                            <span class="badge rounded-pill purple-bg">12</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Dapibus ac facilisis in</a>
+                            <span class="badge rounded-pill purple-bg">54</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Morbi leo risus</a>
+                            <span class="badge rounded-pill purple-bg">5</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Porta ac consectetur ac</a>
+                            <span class="badge rounded-pill purple-bg">123</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Vestibulum at eros</a>
+                            <span class="badge rounded-pill purple-bg">65</span>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="col-3 col-md-3 col-sm-2 mb-3 ">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Cras justo odio</a>
+                            <span class="badge rounded-pill purple-bg">12</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Dapibus ac facilisis in</a>
+                            <span class="badge rounded-pill purple-bg">54</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Morbi leo risus</a>
+                            <span class="badge rounded-pill purple-bg">5</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Porta ac consectetur ac</a>
+                            <span class="badge rounded-pill purple-bg">123</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Vestibulum at eros</a>
+                            <span class="badge rounded-pill purple-bg">65</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-2 mb-3 ">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Cras justo odio</a>
+                            <span class="badge rounded-pill purple-bg">12</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Dapibus ac facilisis in</a>
+                            <span class="badge rounded-pill purple-bg">54</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Morbi leo risus</a>
+                            <span class="badge rounded-pill purple-bg">5</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Porta ac consectetur ac</a>
+                            <span class="badge rounded-pill purple-bg">123</span>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-muted">Vestibulum at eros</a>
+                            <span class="badge rounded-pill purple-bg">65</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<!-- END OF FILE :) -->

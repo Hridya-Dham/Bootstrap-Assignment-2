@@ -1,0 +1,203 @@
+/* ---------BASIC STRUCTURE--------- */
+
+:root {
+    --blue: #18a0fb;
+    --white: #ffffff;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ---------CLASSES--------- */
+
+/* GENERAL MARGIN:TOP */
+
+.form-class, .photo1, .photo2, .cross, .footer {
+    margin-top: 5%;
+}
+
+/* NAVBAR CLASSES */
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--blue); !important; 
+}
+
+
+/* COVER SECTION CLASSES */
+
+.bg-cover {
+    
+    padding: 0%;
+}
+
+.bg-cover video {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cover-text {
+    position: absolute;
+    text-align: center;
+    top: 65vh;
+    
+}
+
+.cover-text h1 {
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 5px white;
+    font-size: 56px;
+}
+
+.cover-btn {
+    background-color: var(--blue);
+    color: white;
+    font-size: 17px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 1.5em;
+    border-radius: 6px;
+}
+
+
+/* INFORMATION SECTION CLASSES */
+
+.info {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.info h1 {
+    font-size: 48px;
+}
+
+/* FORM SECTION CLASSES */
+
+.form-class h1 {
+    font-size: 48px;
+}
+
+.form-class h4 {
+    margin-top: 1%;
+}
+
+.form-class label {
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+
+.form-class input, .form-class select {
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.form-class button {
+    
+    width: 8%;
+}
+
+.main-form {
+    margin-left: 1%;
+}
+
+/* PHOTO#1 SECTION CLASSES */
+
+.photo1 img, .photo2 img {
+    margin-left: 5%;
+    height: 450px;
+    width: auto;
+}
+
+.accordion {
+    margin-left: 5%;
+}
+
+/* CROSS SECTION CLASSES */
+
+.cross h4 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.cross button {
+
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 49%;
+}
+
+/* FOOTER SECTION CLASSES */
+
+.footer h1 {
+    font-size: 48px;
+}
+
+.footer div.row {
+    margin-top: 1%;
+}
+
+.badges {
+    
+    margin-left: 2%;
+}
+
+.badges ul {
+    display: flex;
+    
+}
+
+.badges ul li {
+
+    padding: .5em;
+    border: 2px solid black;
+    border-radius: 5px;    
+    text-align: left;
+}
+
+.badges ul li a {
+    display: inline;
+}
+
+.badges ul li span {
+    float: right;
+}
+
+.purple-bg {
+   color: white;
+   background-color: #7749F8;
+}
+
+/* ---------IDs--------- */
+
+#logo {
+    height: 80px;
+    width: 80px;
+}
+
+#gemini {
+    margin-right: 4%;
+    font-family: 'Comfortaa', cursive;
+    color: #000000;
+
+}
+
+#subscribe {
+    margin-top: 1%;
+}
+
+#add {
+    width: 288%;
+}
