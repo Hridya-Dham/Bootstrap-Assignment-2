@@ -1,6 +1,7 @@
 # Bootstrap-Assignment-2
 Hridya Dham (GSI GI 850)
 
+Make sure to check the video preview aswell => "Bootstrap-Assignment-2/Bootstrap Assignment-2 v1/video/preview.mp4"
 
 SNAPSHOTS OF THE WEBSITE:
 
