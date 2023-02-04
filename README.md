@@ -4,4 +4,4 @@ Hridya Dham (GSI GI 850)
 
 SNAPSHOTS OF THE WEBSITE:
 
-<img src="Bootstrap Assignment-2%20v1/snapshots/1.png" width=100px>
+<img src="Bootstrap Assignment-2%20v1/snapshots/1.png">
